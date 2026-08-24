@@ -8,7 +8,7 @@ from .models import Task
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
-    title="TaskFlow API {}" ,
+    title="TaskFlow API" ,
     description="A Task Management API for learning CI/CD",
     version="1.0.0",
 )
